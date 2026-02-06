@@ -4,10 +4,21 @@ import Link from "next/link";
 import { useState } from "react";
 import { Container } from "@/components/common/Container";
 import { MobileMenu } from "./MobileMenu";
-import { SITE_NAME, NAV_LINKS } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
+import type { NavLink } from "@/lib/types";
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { lang, toggleLang } = useLanguage();
+
+  const navLinks: NavLink[] = [
+    { label: t("nav.home", lang), href: "/" },
+    { label: t("nav.articles", lang), href: "/articles" },
+    { label: t("nav.about", lang), href: "/about" },
+    { label: t("nav.newsletter", lang), href: "/newsletter" },
+  ];
 
   return (
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm">
@@ -25,7 +36,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -34,6 +45,12 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
+            <button
+              onClick={toggleLang}
+              className="rounded-full border border-warm-300 px-3 py-1 text-xs font-medium text-text-secondary transition-colors hover:bg-warm-100 hover:text-terracotta-500"
+            >
+              {lang === "ko" ? "EN" : "한국어"}
+            </button>
           </nav>
 
           <button
@@ -59,7 +76,11 @@ export function Header() {
       </Container>
       <div className="border-b border-border" />
 
-      <MobileMenu open={mobileOpen} onClose={() => setMobileOpen(false)} />
+      <MobileMenu
+        open={mobileOpen}
+        onClose={() => setMobileOpen(false)}
+        navLinks={navLinks}
+      />
     </header>
   );
 }

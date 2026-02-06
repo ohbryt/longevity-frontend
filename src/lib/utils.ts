@@ -6,12 +6,13 @@ export function generateSlug(doi: string): string {
     .toLowerCase();
 }
 
-export function formatDate(dateString: string): string {
+export function formatDate(dateString: string, lang: "ko" | "en" = "ko"): string {
   const date = new Date(dateString);
   if (isNaN(date.getTime())) {
     return dateString;
   }
-  return date.toLocaleDateString("ko-KR", {
+  const locale = lang === "en" ? "en-US" : "ko-KR";
+  return date.toLocaleDateString(locale, {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -45,7 +46,12 @@ export function getSourceColor(topics: string[]): string {
   return "bg-stone-100 text-stone-800";
 }
 
-export function getConfidenceLabel(score: number): string {
+export function getConfidenceLabel(score: number, lang: "ko" | "en" = "ko"): string {
+  if (lang === "en") {
+    if (score >= 0.9) return "High Confidence";
+    if (score >= 0.7) return "Medium Confidence";
+    return "Needs Review";
+  }
   if (score >= 0.9) return "높은 신뢰도";
   if (score >= 0.7) return "보통 신뢰도";
   return "검토 필요";

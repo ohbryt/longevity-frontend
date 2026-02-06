@@ -1,12 +1,22 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { SOURCE_FILTERS } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
 
 export function ArticleFilters() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const activeSource = searchParams.get("source") || "all";
+  const { lang } = useLanguage();
+
+  const sourceFilters = [
+    { value: "all", label: t("filter.all", lang) },
+    { value: "pubmed", label: "PubMed" },
+    { value: "biorxiv", label: "bioRxiv" },
+    { value: "medrxiv", label: "medRxiv" },
+    { value: "clinical_trial", label: "ClinicalTrials.gov" },
+  ];
 
   function handleFilter(value: string) {
     const params = new URLSearchParams(searchParams.toString());
@@ -20,7 +30,7 @@ export function ArticleFilters() {
 
   return (
     <div className="mb-8 flex flex-wrap gap-2">
-      {SOURCE_FILTERS.map((filter) => (
+      {sourceFilters.map((filter) => (
         <button
           key={filter.value}
           onClick={() => handleFilter(filter.value)}

@@ -1,8 +1,22 @@
+"use client";
+
 import Link from "next/link";
 import { Container } from "@/components/common/Container";
-import { SITE_NAME, NAV_LINKS } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
+import type { NavLink } from "@/lib/types";
 
 export function Footer() {
+  const { lang } = useLanguage();
+
+  const navLinks: NavLink[] = [
+    { label: t("nav.home", lang), href: "/" },
+    { label: t("nav.articles", lang), href: "/articles" },
+    { label: t("nav.about", lang), href: "/about" },
+    { label: t("nav.newsletter", lang), href: "/newsletter" },
+  ];
+
   return (
     <footer className="border-t border-border bg-warm-50 py-14">
       <Container>
@@ -17,16 +31,16 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-text-muted">
-              최신 건강수명(healthspan) 연구 인사이트를 매주 전해드립니다.
+              {t("footer.description", lang)}
             </p>
           </div>
 
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wider text-text-secondary uppercase">
-              바로가기
+              {t("footer.quickLinks", lang)}
             </h3>
             <nav className="flex flex-col gap-2">
-              {NAV_LINKS.map((link) => (
+              {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
@@ -40,7 +54,7 @@ export function Footer() {
 
           <div>
             <h3 className="mb-3 text-xs font-semibold tracking-wider text-text-secondary uppercase">
-              연구 소스
+              {t("footer.sources", lang)}
             </h3>
             <ul className="flex flex-col gap-2 text-sm text-text-muted">
               <li>PubMed / MEDLINE</li>
@@ -52,8 +66,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-6 text-center text-xs text-text-muted">
           <p>
-            &copy; {new Date().getFullYear()} {SITE_NAME}. 본 콘텐츠는 교육
-            목적으로 제공되며 의학적 조언을 대체하지 않습니다.
+            &copy; {new Date().getFullYear()} {SITE_NAME}. {t("footer.disclaimer", lang)}
           </p>
           <p className="mt-2 tracking-wide">
             Brown Biotech Inc.

@@ -1,15 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import type { NavLink } from "@/lib/types";
 
 export function MobileMenu({
   open,
   onClose,
+  navLinks,
 }: {
   open: boolean;
   onClose: () => void;
+  navLinks: NavLink[];
 }) {
+  const { lang, toggleLang } = useLanguage();
+
   if (!open) return null;
 
   return (
@@ -41,7 +47,7 @@ export function MobileMenu({
           </button>
         </div>
         <nav className="flex flex-col gap-4">
-          {NAV_LINKS.map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -51,6 +57,12 @@ export function MobileMenu({
               {link.label}
             </Link>
           ))}
+          <button
+            onClick={toggleLang}
+            className="mt-2 self-start rounded-full border border-warm-300 px-4 py-1.5 text-sm font-medium text-text-secondary transition-colors hover:bg-warm-100 hover:text-terracotta-500"
+          >
+            {lang === "ko" ? "EN" : "한국어"}
+          </button>
         </nav>
       </div>
     </div>

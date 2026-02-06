@@ -3,6 +3,7 @@ import { Noto_Sans_KR, Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/constants";
 
 const notoSansKR = Noto_Sans_KR({
@@ -43,9 +44,11 @@ export default function RootLayout({
       <body
         className={`${notoSansKR.variable} ${notoSerifKR.variable} antialiased`}
       >
-        <Header />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
+        <LanguageProvider>
+          <Header />
+          <main className="min-h-screen">{children}</main>
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

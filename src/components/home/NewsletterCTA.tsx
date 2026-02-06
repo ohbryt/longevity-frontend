@@ -1,7 +1,13 @@
+"use client";
+
 import { Container } from "@/components/common/Container";
 import { Button } from "@/components/common/Button";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
 
 export function NewsletterCTA() {
+  const { lang } = useLanguage();
+
   return (
     <section className="py-20">
       <Container>
@@ -11,17 +17,16 @@ export function NewsletterCTA() {
 
           <div className="relative">
             <p className="mb-3 font-serif text-sm italic tracking-widest text-warm-500 uppercase">
-              Weekly Research Digest
+              {t("cta.tagline", lang)}
             </p>
             <h2 className="text-2xl font-bold text-text-primary md:text-3xl">
-              매주 최신 건강수명(healthspan) 인사이트를 받아보세요
+              {t("cta.title", lang)}
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-text-secondary">
-              PubMed, bioRxiv 등 주요 학술지의 최신 연구를
-              분석하여 알기 쉽게 전해드립니다.
+              {t("cta.description", lang)}
             </p>
             <div className="mt-8">
-              <Button href="/newsletter">무료 뉴스레터 구독</Button>
+              <Button href="/newsletter">{t("cta.button", lang)}</Button>
             </div>
           </div>
         </div>

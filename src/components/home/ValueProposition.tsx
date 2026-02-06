@@ -1,17 +1,31 @@
+"use client";
+
 import { Container } from "@/components/common/Container";
 import { SectionHeading } from "@/components/common/SectionHeading";
-import { CONTENT_PILLARS } from "@/lib/constants";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
+import type { DictKey } from "@/lib/i18n/dictionary";
+
+const PILLAR_ICONS = ["🔬", "💊", "🧬", "🧪", "🏃"];
 
 export function ValueProposition() {
+  const { lang } = useLanguage();
+
+  const pillars = PILLAR_ICONS.map((icon, i) => ({
+    icon,
+    title: t(`pillar.${i + 1}.title` as DictKey, lang),
+    description: t(`pillar.${i + 1}.desc` as DictKey, lang),
+  }));
+
   return (
     <section className="bg-warm-50 py-20">
       <Container>
         <SectionHeading
-          title="다루는 주제"
-          subtitle="건강수명(healthspan)의 핵심 분야를 깊이 있게 다룹니다"
+          title={t("value.title", lang)}
+          subtitle={t("value.subtitle", lang)}
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {CONTENT_PILLARS.map((pillar, i) => (
+          {pillars.map((pillar, i) => (
             <div
               key={pillar.title}
               className="group rounded-lg border border-border bg-white p-7 transition-all hover:border-warm-300 hover:shadow-md"

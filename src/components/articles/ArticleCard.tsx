@@ -1,9 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import { Badge } from "@/components/common/Badge";
 import type { Article } from "@/lib/types";
 import { formatDate, getSourceLabel, getSourceColor, truncate } from "@/lib/utils";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
+import { getArticleTitle, getArticleSummary } from "@/lib/i18n/article-helpers";
 
 export function ArticleCard({ article }: { article: Article }) {
+  const { lang } = useLanguage();
+
   return (
     <Link
       href={`/articles/${article.slug}`}
@@ -18,16 +25,16 @@ export function ArticleCard({ article }: { article: Article }) {
             {getSourceLabel(article.paper.topics)}
           </Badge>
           <span className="text-xs text-text-muted">
-            {formatDate(article.created_at)}
+            {formatDate(article.created_at, lang)}
           </span>
         </div>
 
         <h3 className="font-serif text-lg font-bold leading-snug text-text-primary group-hover:text-terracotta-600 transition-colors">
-          {article.korean_title}
+          {getArticleTitle(article, lang)}
         </h3>
 
         <p className="mt-3 flex-1 text-sm leading-relaxed text-text-secondary">
-          {truncate(article.korean_summary, 120)}
+          {truncate(getArticleSummary(article, lang), 120)}
         </p>
 
         <div className="mt-4 border-t border-border pt-3 flex items-center justify-between">
@@ -35,7 +42,7 @@ export function ArticleCard({ article }: { article: Article }) {
             {article.paper.journal}
           </span>
           <span className="text-xs font-medium text-terracotta-500 opacity-0 transition-opacity group-hover:opacity-100">
-            읽기 &rarr;
+            {t("article.read", lang)} &rarr;
           </span>
         </div>
       </div>

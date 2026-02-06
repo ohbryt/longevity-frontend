@@ -1,11 +1,19 @@
+"use client";
+
 import type { Citation } from "@/lib/types";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
 
 export function CitationList({ citations }: { citations: Citation[] }) {
+  const { lang } = useLanguage();
+
   if (citations.length === 0) return null;
 
   return (
     <div className="rounded-xl border border-border bg-white p-5">
-      <h3 className="mb-3 text-sm font-semibold text-text-primary">참고문헌</h3>
+      <h3 className="mb-3 text-sm font-semibold text-text-primary">
+        {t("sidebar.citations", lang)}
+      </h3>
       <ol className="space-y-2">
         {citations.map((c, i) => (
           <li key={i} className="text-sm text-text-secondary">

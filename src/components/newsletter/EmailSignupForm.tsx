@@ -2,11 +2,14 @@
 
 import { useState } from "react";
 import { Button } from "@/components/common/Button";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { t } from "@/lib/i18n/dictionary";
 
 export function EmailSignupForm() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const { lang } = useLanguage();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -22,15 +25,15 @@ export function EmailSignupForm() {
       const data = await res.json();
       if (res.ok) {
         setStatus("success");
-        setMessage("구독해 주셔서 감사합니다! 매주 최신 인사이트를 보내드리겠습니다.");
+        setMessage(t("form.success", lang));
         setEmail("");
       } else {
         setStatus("error");
-        setMessage(data.error || "구독 처리 중 문제가 발생했습니다.");
+        setMessage(data.error || t("form.error", lang));
       }
     } catch {
       setStatus("error");
-      setMessage("네트워크 오류가 발생했습니다. 다시 시도해 주세요.");
+      setMessage(t("form.networkError", lang));
     }
   }
 
@@ -41,12 +44,12 @@ export function EmailSignupForm() {
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="이메일 주소를 입력하세요"
+          placeholder={t("form.placeholder", lang)}
           required
           className="flex-1 rounded-lg border border-border bg-white px-4 py-2.5 text-sm text-text-primary placeholder:text-text-muted focus:border-terracotta-300 focus:outline-none focus:ring-2 focus:ring-terracotta-100"
         />
         <Button type="submit" className={status === "loading" ? "opacity-60" : ""}>
-          {status === "loading" ? "처리 중..." : "구독하기"}
+          {status === "loading" ? t("form.loading", lang) : t("form.submit", lang)}
         </Button>
       </div>
       {message && (
