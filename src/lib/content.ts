@@ -4,10 +4,13 @@ import type { Article } from "./types";
 import { generateSlug, getSourceLabel } from "./utils";
 
 function getContentDir(): string {
-  return (
-    process.env.CONTENT_DIR ||
-    path.join(process.cwd(), "..", "automation", "content_drafts")
-  );
+  if (process.env.CONTENT_DIR) return process.env.CONTENT_DIR;
+
+  // Try local content/ first (copied by prebuild), then parent automation/
+  const local = path.join(process.cwd(), "content");
+  if (fs.existsSync(local)) return local;
+
+  return path.join(process.cwd(), "..", "automation", "content_drafts");
 }
 
 function parseArticle(data: Article, filename: string): Article {

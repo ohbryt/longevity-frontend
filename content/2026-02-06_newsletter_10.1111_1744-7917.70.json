@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "title": "Silkworm as a model for NAD⁺-dependent lifespan regulation: Functional insights into BmNmnat1 and nicotinic acid.",
+    "authors": [
+      "Liu Qingsong",
+      "Li Hongni",
+      "Chen Hao",
+      "Wang Xiaoyang",
+      "Li Guoli"
+    ],
+    "abstract": "Nicotinamide adenine dinucleotide (NAD⁺) is a central metabolic coenzyme that regulates redox homeostasis, DNA repair, and cellular longevity. While the role of NAD⁺ metabolism in mammalian aging has been well studied, its significance in invertebrate systems remains underexplored. Here, we establish the silkworm (Bombyx mori) as a novel model for investigating NAD⁺-dependent lifespan regulation. Through phenotypic comparisons among silkworm strains, we found that longer-lived strains exhibit higher levels of NAD⁺ and elevated expression of BmNmnat1, a key enzyme in NAD⁺ biosynthesis. CRISPR/Cas9-mediated knockout and RNAi knockdown of BmNmnat1 led to embryonic lethality, increased DNA damage, disrupted cell cycle progression, and morphological aging phenotypes. Supplementation with nicotinic acid (NA) significantly reversed these aging-associated changes both in vitro and in vivo, including improved redox balance, reduced oxidative stress markers, and prolonged adult lifespan. Our results highlight the evolutionarily conserved role of BmNmnat1-mediated NAD⁺ metabolism in aging and establish the silkworm as a valuable invertebrate model for mechanistic studies and antiaging intervention screening.",
+    "journal": "Insect science",
+    "doi": "10.1111/1744-7917.70191",
+    "pub_date": "",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41614288/",
+    "full_text": null,
+    "relevance_score": 4.0,
+    "topics": [
+      "pubmed"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "누에가 알려주는 장수의 비밀? NAD⁺와 니코틴산의 놀라운 효능!",
+  "korean_summary": "최근 곤충학 저널에 발표된 연구에 따르면 누에를 통해 NAD⁺ 대사가 수명 연장에 중요한 역할을 한다는 사실이 밝혀졌습니다. 특히, 니코틴산(NA) 보충이 노화 관련 변화를 개선하고 수명을 연장하는 데 도움이 될 수 있다는 흥미로운 결과가 나왔습니다.",
+  "korean_body": "안녕하세요, 장수영 오입니다. 이번 주에는 누에를 통해 노화와 대사 질환의 비밀을 엿볼 수 있는 흥미로운 연구 결과가 발표되어 소개해 드립니다.\n\n이번 연구는 곤충 모델인 누에(Bombyx mori)를 활용하여 NAD⁺(Nicotinamide adenine dinucleotide) 대사가 수명 조절에 미치는 영향을 분석했습니다. NAD⁺는 세포 내 에너지 생성, DNA 복구, 산화 환원 균형 유지 등 다양한 생명 유지 과정에 필수적인 조효소입니다. 연구 결과, 장수하는 누에 품종은 NAD⁺ 수치가 높고 NAD⁺ 생합성에 중요한 효소인 BmNmnat1의 발현이 높았습니다. 반대로, BmNmnat1 유전자를 제거하거나 발현을 억제하면 DNA 손상 증가, 세포 주기 이상, 노화 관련 형태학적 변화가 나타났습니다.\n\n더욱 흥미로운 점은 니코틴산(NA, Nicotinic acid)을 누에에게 보충했을 때 이러한 노화 관련 변화가 상당히 개선되었다는 것입니다. 니코틴산은 NAD⁺의 전구체로, 보충 시 산화 환원 균형 개선, 산화 스트레스 감소, 성체 수명 연장 효과를 보였습니다. 이는 니코틴산이 NAD⁺ 수치를 높여 세포 기능을 회복시키고 노화를 늦추는 데 기여할 수 있음을 시사합니다. 연구진은 누에가 NAD⁺ 의존적인 수명 조절 연구에 유용한 모델임을 강조하며, 니코틴산의 항노화 효과를 확인했습니다(Liu Qingsong et al., Insect science).\n\n이 연구는 NAD⁺ 대사가 곤충에서도 중요한 역할을 한다는 것을 보여주며, 니코틴산 보충이 노화 방지에 도움이 될 수 있다는 가능성을 제시합니다. 물론, 누에 연구 결과를 인간에게 직접 적용하기에는 한계가 있지만, NAD⁺ 부스팅 전략이 건강한 노화를 위한 유망한 접근법임을 뒷받침하는 중요한 증거입니다.",
+  "english_title": "Silkworm as a model for NAD⁺-dependent lifespan regulation: Functional insights into BmNmnat1 and nicotinic acid.",
+  "english_summary": "Nicotinamide adenine dinucleotide (NAD⁺) is a central metabolic coenzyme that regulates redox homeostasis, DNA repair, and cellular longevity. While the role of NAD⁺ metabolism in mammalian aging has ...",
+  "key_insights": [
+    "NAD⁺는 세포의 에너지 생산, DNA 복구, 산화 환원 균형 유지에 필수적인 조효소이며, 장수와 밀접한 관련이 있습니다.",
+    "누에 연구 결과, NAD⁺ 생합성 효소인 BmNmnat1이 노화 방지에 중요한 역할을 한다는 것이 밝혀졌습니다.",
+    "니코틴산(NA) 보충은 NAD⁺ 수치를 높여 노화 관련 변화를 개선하고 수명을 연장하는 데 도움이 될 수 있습니다."
+  ],
+  "practical_applications": [
+    "균형 잡힌 식단을 통해 니코틴산(비타민 B3)을 충분히 섭취하세요. 니코틴산은 곡물, 육류, 생선, 견과류 등에 풍부하게 함유되어 있습니다.",
+    "규칙적인 운동은 NAD⁺ 수치를 높이는 데 도움이 될 수 있습니다. 꾸준한 운동은 건강한 노화를 위한 필수적인 습관입니다."
+  ],
+  "citations": [
+    {
+      "doi": "10.1111/1744-7917.70191",
+      "title": "Silkworm as a model for NAD⁺-dependent lifespan regulation: Functional insights into BmNmnat1 and nicotinic acid.",
+      "journal": "Insect science"
+    }
+  ],
+  "fact_check_notes": [
+    "AI 생성 콘텐츠에서 'embryonic lethality' (배아 치사)에 대한 언급이 누락되었습니다. BmNmnat1 유전자 제거 시 배아 치사가 발생한다는 점은 중요한 정보입니다.",
+    "AI 생성 콘텐츠에서 'in vitro and in vivo' (시험관 내 및 생체 내) 실험 결과가 모두 니코틴산에 의해 개선되었다는 점이 명확하게 드러나지 않습니다. 초록에서는 시험관 내, 생체 내 모두에서 효과가 있었다고 강조합니다."
+  ],
+  "confidence_score": 0.9,
+  "created_at": "2026-02-06T16:08:54.160649",
+  "status": "ready_for_review"
+}

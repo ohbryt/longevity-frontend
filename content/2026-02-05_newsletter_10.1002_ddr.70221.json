@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "title": "Mitochondrial Dysfunction in Inflammatory Skin Diseases: Mechanisms, Biomarkers, and Emerging Therapeutic Strategies.",
+    "authors": [
+      "Li Mei",
+      "Zhao Guowei",
+      "Zhao Guo-Wei",
+      "Shen Jie"
+    ],
+    "abstract": "Mitochondrial dysfunction critically underpins the pathogenesis of inflammatory skin diseases such as psoriasis, vitiligo, atopic dermatitis, and impaired wound healing. This comprehensive review synthesizes recent evidence to elucidate mechanisms, including compromised bioenergetics, excessive reactive oxygen species (ROS), mitochondrial DNA (mtDNA) damage, and aberrant mitochondrial dynamics. Distinct from prior work, this analysis uncovers novel findings: mtDNA acts as a damage-associated molecular pattern, activating cyclic GMP-AMP synthase-stimulator of interferon genes (cGAS-STING) pathways to drive type I interferon in vitiligo and IL-17A in psoriasis; succinate-mediated immune-metabolic signaling amplifies type 2 inflammation in atopic dermatitis; and subclinical mitochondrial impairments in non-lesional skin serve as early indicators of disease susceptibility across these conditions. Preclinical studies have shown that emerging therapies, including antioxidants (e.g., NMN), mitochondrial modulators (e.g., SS31), senotherapeutics, and mitochondrial transplantation, are promising strategies for restoring cellular function. Future research should focus on multi-omics to dissect mitochondrial-epigenetic interactions, validate mitochondrial metabolites like succinate as diagnostic biomarkers, and explore synergistic combination therapies. This integrative framework of mitochondrial-driven pathology provides fresh perspectives to advance diagnostic and therapeutic innovation in dermatology.",
+    "journal": "Drug development research",
+    "doi": "10.1002/ddr.70221",
+    "pub_date": "2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41508288/",
+    "full_text": null,
+    "relevance_score": 2.0,
+    "topics": []
+  },
+  "content_type": "newsletter",
+  "korean_title": "Mitochondrial Dysfunction in Inflammatory Skin Diseases: Mechanisms, Biomarkers, and Emerging Therapeutic Strategies.",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+  "english_title": "Mitochondrial Dysfunction in Inflammatory Skin Diseases: Mechanisms, Biomarkers, and Emerging Therapeutic Strategies.",
+  "english_summary": "Mitochondrial dysfunction critically underpins the pathogenesis of inflammatory skin diseases such as psoriasis, vitiligo, atopic dermatitis, and impaired wound healing. This comprehensive review synt...",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "10.1002/ddr.70221",
+      "title": "Mitochondrial Dysfunction in Inflammatory Skin Diseases: Mechanisms, Biomarkers, and Emerging Therapeutic Strategies.",
+      "journal": "Drug development research"
+    }
+  ],
+  "fact_check_notes": [
+    "Fact check failed: Error code: 401 - {'error': {'message': \"You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys.\", 'type': 'invalid_request_error', 'param': None, 'code': None}}"
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-05T22:45:30.285952",
+  "status": "needs_revision"
+}
