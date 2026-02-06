@@ -15,7 +15,7 @@ export function MobileMenu({
   return (
     <div className="fixed inset-0 z-50 md:hidden">
       <div className="fixed inset-0 bg-black/30" onClick={onClose} />
-      <div className="fixed inset-y-0 right-0 w-72 bg-cream p-6 shadow-xl">
+      <div className="fixed inset-y-0 right-0 w-[80vw] max-w-72 bg-cream p-6 shadow-xl">
         <div className="mb-8 flex items-center justify-between">
           <span className="font-serif text-lg font-bold text-text-primary">
             {SITE_NAME}

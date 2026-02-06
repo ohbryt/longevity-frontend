@@ -36,7 +36,7 @@ export function EmailSignupForm() {
 
   return (
     <form onSubmit={handleSubmit} className="mx-auto max-w-md">
-      <div className="flex gap-2">
+      <div className="flex flex-col gap-2 sm:flex-row">
         <input
           type="email"
           value={email}

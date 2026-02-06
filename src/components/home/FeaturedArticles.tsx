@@ -13,7 +13,7 @@ export function FeaturedArticles() {
       <Container>
         <SectionHeading
           title="최신 연구 인사이트"
-          subtitle="이번 주 가장 주목할 만한 장수과학 연구를 소개합니다"
+          subtitle="이번 주 가장 주목할 만한 건강수명(healthspan) 연구를 소개합니다"
         />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {articles.map((article) => (

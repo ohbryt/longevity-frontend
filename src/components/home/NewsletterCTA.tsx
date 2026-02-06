@@ -14,7 +14,7 @@ export function NewsletterCTA() {
               Weekly Research Digest
             </p>
             <h2 className="text-2xl font-bold text-text-primary md:text-3xl">
-              매주 최신 장수과학 인사이트를 받아보세요
+              매주 최신 건강수명(healthspan) 인사이트를 받아보세요
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-text-secondary">
               PubMed, bioRxiv 등 주요 학술지의 최신 연구를

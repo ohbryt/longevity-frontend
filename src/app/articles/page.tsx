@@ -8,7 +8,7 @@ import { getArticlesBySource } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "아티클",
-  description: "최신 장수과학 연구를 의사과학자의 시선으로 분석합니다",
+  description: "최신 건강수명(healthspan) 연구를 의사과학자의 시선으로 분석합니다",
 };
 
 export default async function ArticlesPage({
@@ -24,7 +24,7 @@ export default async function ArticlesPage({
       <Container>
         <SectionHeading
           title="아티클"
-          subtitle="최신 장수과학 연구를 의사과학자의 시선으로 분석합니다"
+          subtitle="최신 건강수명(healthspan) 연구를 의사과학자의 시선으로 분석합니다"
         />
         <Suspense>
           <ArticleFilters />

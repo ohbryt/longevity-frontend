@@ -2,7 +2,7 @@ import type { ContentPillar, NavLink } from "./types";
 
 export const SITE_NAME = "Longevity Lab";
 export const SITE_DESCRIPTION =
-  "최신 장수과학 논문을 분석하여 실생활 인사이트로 전하는 리서치 플랫폼";
+  "최신 건강수명(healthspan) 논문을 분석하여 실생활 인사이트로 전하는 리서치 플랫폼";
 
 export const NAV_LINKS: NavLink[] = [
   { label: "홈", href: "/" },

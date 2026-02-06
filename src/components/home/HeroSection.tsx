@@ -10,9 +10,9 @@ export function HeroSection() {
             Evidence-Based Longevity Science
           </p>
           <h1 className="text-4xl font-bold leading-tight text-text-primary md:text-[3.25rem]">
-            과학으로 읽는
+            가장 앞선
             <br />
-            <span className="text-terracotta-500">장수의 비밀</span>
+            <span className="text-terracotta-500">헬스스팬 인사이트</span>
           </h1>
 
           <div className="divider-ornament mx-auto mt-8 max-w-xs">

@@ -4,7 +4,7 @@ import { EmailSignupForm } from "@/components/newsletter/EmailSignupForm";
 
 export const metadata: Metadata = {
   title: "뉴스레터",
-  description: "매주 최신 장수과학 인사이트를 이메일로 받아보세요",
+  description: "매주 최신 건강수명(healthspan) 인사이트를 이메일로 받아보세요",
 };
 
 export default function NewsletterPage() {
@@ -14,10 +14,10 @@ export default function NewsletterPage() {
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-5xl">📬</span>
           <h1 className="mt-4 text-3xl font-bold text-text-primary md:text-4xl">
-            장수과학 뉴스레터
+            건강수명(healthspan) 뉴스레터
           </h1>
           <p className="mt-4 text-lg text-text-secondary">
-            매주 엄선된 장수과학 연구 인사이트를 한국어로 전해드립니다. PubMed,
+            매주 엄선된 건강수명(healthspan) 연구 인사이트를 한국어로 전해드립니다. PubMed,
             bioRxiv, medRxiv의 최신 논문을 의사과학자가 직접 분석합니다.
           </p>
 

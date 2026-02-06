@@ -8,7 +8,7 @@ export function ValueProposition() {
       <Container>
         <SectionHeading
           title="다루는 주제"
-          subtitle="장수과학의 핵심 분야를 깊이 있게 다룹니다"
+          subtitle="건강수명(healthspan)의 핵심 분야를 깊이 있게 다룹니다"
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {CONTENT_PILLARS.map((pillar, i) => (

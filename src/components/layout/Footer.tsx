@@ -17,7 +17,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-text-muted">
-              최신 장수과학 연구 인사이트를 매주 전해드립니다.
+              최신 건강수명(healthspan) 연구 인사이트를 매주 전해드립니다.
             </p>
           </div>
 

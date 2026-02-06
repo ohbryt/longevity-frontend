@@ -20,7 +20,7 @@ export default function AboutPage() {
               {SITE_NAME}
             </h1>
             <p className="mt-2 text-text-secondary">
-              Evidence-Based Longevity Science Platform
+              The Healthspan Briefing
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <p>
               <strong className="text-text-primary">{SITE_NAME}</strong>은
               PubMed, bioRxiv, medRxiv, ClinicalTrials.gov 등 세계 주요 학술
-              데이터베이스에서 장수과학 관련 최신 논문을 선별하고, 이를 한국어로
+              데이터베이스에서 헬스스팬(healthspan) 관련 최신 논문을 선별하고, 이를 한국어로
               분석하여 전달하는 플랫폼입니다.
             </p>
 
@@ -43,6 +43,16 @@ export default function AboutPage() {
             </p>
 
             <ul className="space-y-3 pl-5 list-disc marker:text-terracotta-400">
+              <li>
+                <strong className="text-text-primary">매일 업데이트</strong>{" "}
+                &mdash; 매일 최신 논문을 자동 수집·분석하여 새로운 아티클을
+                업데이트합니다. 사이트에는 항상 가장 최신 연구가 반영됩니다.
+              </li>
+              <li>
+                <strong className="text-text-primary">주간 뉴스레터</strong>{" "}
+                &mdash; 매주 월요일, 한 주간 가장 주목할 만한 연구를 선별하여
+                이메일로 전해드립니다.
+              </li>
               <li>
                 <strong className="text-text-primary">근거 기반</strong> &mdash;
                 모든 콘텐츠는 동료심사(peer-reviewed) 논문 또는 프리프린트
