@@ -42,6 +42,12 @@ export const CONTENT_PILLARS: ContentPillar[] = [
     description:
       "운동, 수면, 식이 패턴이 노화에 미치는 영향을 과학적 근거와 함께 안내합니다.",
   },
+  {
+    icon: "🎗️",
+    title: "암 진단과 치료",
+    description:
+      "조기 진단 바이오마커, 면역항암제, 표적치료 등 최신 종양학 연구와 임상시험을 분석합니다.",
+  },
 ];
 
 export const SOURCE_FILTERS = [

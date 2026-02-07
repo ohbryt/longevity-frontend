@@ -61,6 +61,11 @@ const dictionary = {
     ko: "운동, 수면, 식이 패턴이 노화에 미치는 영향을 과학적 근거와 함께 안내합니다.",
     en: "How exercise, sleep, and dietary patterns impact aging — backed by scientific evidence.",
   },
+  "pillar.6.title": { ko: "암 진단과 치료", en: "Cancer Dx & Therapeutics" },
+  "pillar.6.desc": {
+    ko: "조기 진단 바이오마커, 면역항암제, 표적치료 등 최신 종양학 연구와 임상시험을 분석합니다.",
+    en: "Early-detection biomarkers, immunotherapy, targeted therapy — the latest oncology research and clinical trials.",
+  },
 
   // Newsletter CTA
   "cta.tagline": { ko: "Weekly Research Digest", en: "Weekly Research Digest" },

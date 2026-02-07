@@ -6,7 +6,7 @@ import { useLanguage } from "@/lib/i18n/LanguageContext";
 import { t } from "@/lib/i18n/dictionary";
 import type { DictKey } from "@/lib/i18n/dictionary";
 
-const PILLAR_ICONS = ["🔬", "💊", "🧬", "🧪", "🏃"];
+const PILLAR_ICONS = ["🔬", "💊", "🧬", "🧪", "🏃", "🎗️"];
 
 export function ValueProposition() {
   const { lang } = useLanguage();
