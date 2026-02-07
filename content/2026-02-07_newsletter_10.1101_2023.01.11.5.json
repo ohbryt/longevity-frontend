@@ -1,0 +1,45 @@
+{
+  "paper": {
+    "title": "Fragmentation through cell-cell adhesion maintains senescent cell viability but promotes debris deposition",
+    "authors": [
+      "Durik, M.",
+      "Sampaio Goncalves, D.",
+      "Knauer Meyer, T.",
+      "Spiegelhalter, C.",
+      "Messaddeq, N."
+    ],
+    "abstract": "Cellular senescence is a state of stable arrest and secretion linked to aging and disease. Here we identify that senescent cells dispose of large fragments of themselves through cell-to-cell adhesion, which we term senescent-cell adhesion fragments (SCAFs). Found across all senescent types examined, SCAFs lack nuclear material but contain organelles, including damaged mitochondria. Disrupting adherens junctions decreased SCAF formation but induced senescent-cell death, which was caused by an inability to shed damaged mitochondria. Dynamic analyses show that SCAFs ultimately rupture, releasing a complex proteome including damage-associated molecular patterns (DAMPs) and proteins linked to neurodegenerative disease. Functionally, SCAFs activate wound-healing and cancer-related programs, promoting migration and invasion. Altogether, these findings identify a new feature that facilitates senescent cell survival, but the consequence of which is external deposition of damaged intracellular contents, with implications for cancer and aging.",
+    "journal": "biorxiv (preprint)",
+    "doi": "10.1101/2023.01.11.523642",
+    "pub_date": "2026-01-29",
+    "url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523642",
+    "full_text": null,
+    "relevance_score": 4.5,
+    "topics": [
+      "biorxiv",
+      "preprint"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "Fragmentation through cell-cell adhesion maintains senescent cell viability but promotes debris deposition",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.",
+  "english_title": "Fragmentation through cell-cell adhesion maintains senescent cell viability but promotes debris deposition",
+  "english_summary": "Cellular senescence is a state of stable arrest and secretion linked to aging and disease. Here we identify that senescent cells dispose of large fragments of themselves through cell-to-cell adhesion,...",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "10.1101/2023.01.11.523642",
+      "title": "Fragmentation through cell-cell adhesion maintains senescent cell viability but promotes debris deposition",
+      "journal": "biorxiv (preprint)"
+    }
+  ],
+  "fact_check_notes": [
+    "Fact check failed (Gemini): Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2."
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-07T08:52:11.415724",
+  "status": "needs_revision",
+  "source": "biorxiv"
+}

@@ -1,0 +1,45 @@
+{
+  "paper": {
+    "title": "Mfn2 induces NCLX-mediated Ca2+ release from mitochondria",
+    "authors": [
+      "Kolitsida, P.",
+      "Saha, A.",
+      "Caliri, A. W.",
+      "Assali, E.",
+      "Riera, A. M."
+    ],
+    "abstract": "Mfn2 is a mitochondrial outer-membrane fusion protein that also functions as a tether between mitochondria and the ER. Here, we identify a previously unrecognized role for Mfn2 in regulating mitochondrial Ca2+ release via the Na+/Ca2+ exchanger NCLX. This function was uncovered through studies with the fungal toxin phomoxanthone A (PXA), which induces NCLX-dependent Ca2+ release by directly targeting Mfn2. Mfn2-dependent Ca2+ release through NCLX is similarly triggered by ROS in respiring cells treated with oligomycin or mitoPQ. ROS enhances Ca2+ release by strengthening the interaction between Mfn2 and NCLX, an interaction that also requires the mitochondrial outer-membrane protein SLC25A46. Together, these proteins form a complex that coordinates mitochondrial fission and Ca2+ release to initiate mitophagy. Although the antioxidant N-acetylcysteine blocks ROS-induced mitochondrial fission, inhibition of Ca2+ release with the NCLX inhibitor CGP37157 does not, indicating that ROS-driven fission is independent of Ca2+ release. In contrast, Ca2+ release is required for efficient mitophagy, as NCLX inhibition arrests this process at a later stage. We further show that Ca2+ promotes mitophagy through NEDD4-1, which is a Ca2+-responsive E3 ubiquitin ligase. Together, these findings connect mitochondrial ROS production to Ca2+ signaling, mitochondrial remodeling, and mitophagy, providing new insight into how mitochondrial dysfunction may contribute to neurodegenerative and metabolic disease.",
+    "journal": "biorxiv (preprint)",
+    "doi": "10.1101/2024.08.05.606704",
+    "pub_date": "2026-02-03",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.08.05.606704",
+    "full_text": null,
+    "relevance_score": 4.5,
+    "topics": [
+      "biorxiv",
+      "preprint"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "Mfn2 induces NCLX-mediated Ca2+ release from mitochondria",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.",
+  "english_title": "Mfn2 induces NCLX-mediated Ca2+ release from mitochondria",
+  "english_summary": "Mfn2 is a mitochondrial outer-membrane fusion protein that also functions as a tether between mitochondria and the ER. Here, we identify a previously unrecognized role for Mfn2 in regulating mitochond...",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "10.1101/2024.08.05.606704",
+      "title": "Mfn2 induces NCLX-mediated Ca2+ release from mitochondria",
+      "journal": "biorxiv (preprint)"
+    }
+  ],
+  "fact_check_notes": [
+    "Fact check failed (Gemini): Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2."
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-07T08:52:50.213706",
+  "status": "needs_revision",
+  "source": "biorxiv"
+}

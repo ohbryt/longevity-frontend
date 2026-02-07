@@ -47,5 +47,6 @@
   ],
   "confidence_score": 0.9,
   "created_at": "2026-02-06T16:08:54.160649",
-  "status": "ready_for_review"
+  "status": "ready_for_review",
+  "source": "pubmed"
 }

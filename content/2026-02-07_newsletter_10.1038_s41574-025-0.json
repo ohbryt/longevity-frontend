@@ -1,0 +1,44 @@
+{
+  "paper": {
+    "title": "Translating cellular senescence research into clinical practice for metabolic disease.",
+    "authors": [
+      "Chaib Selim",
+      "Palmer Allyson K",
+      "Wyles Saranya P",
+      "Musi Nicolas",
+      "Kirkland James L"
+    ],
+    "abstract": "Translational research on cellular senescence has led to numerous early-phase clinical trials targeting senescent cells to treat, prevent or alleviate multiple disorders and diseases, including metabolic diseases and their comorbidities. Cellular senescence is a cell fate that occurs in response to stressors, including metabolic disruptions, and is one of the hallmarks (or pillars) of ageing. In their senescent state, cells cease proliferation and can develop a senescence-associated secretory and metabolic phenotype that contributes to the pathogenesis of metabolic dysfunction associated with obesity and ageing. Metabolic stress, which is central to the development of metabolic diseases, can trigger cellular senescence, thereby enabling a vicious cycle that exacerbates metabolic dysfunction. Therapies targeting senescent cells (senotherapeutics), either alone or in combination with other gerotherapies or lifestyle interventions, hold great promise for addressing the ongoing obesity epidemic and the need for improved therapies to prevent and treat metabolic diseases and their complications and comorbidities. In this Review, we discuss novel senotherapeutics, including challenges related to the translation of these therapies and the need to establish gerodiagnostic biomarkers to track the elimination of senescent cells, define eligibility and measure efficacy, as well as considerations for clinical trial design and execution.",
+    "journal": "Nature reviews. Endocrinology",
+    "doi": "10.1038/s41574-025-01187-9",
+    "pub_date": "2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41053277/",
+    "full_text": null,
+    "relevance_score": 5.0,
+    "topics": [
+      "pubmed"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "Translating cellular senescence research into clinical practice for metabolic disease.",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: 504 Deadline Exceeded",
+  "english_title": "Translating cellular senescence research into clinical practice for metabolic disease.",
+  "english_summary": "Translational research on cellular senescence has led to numerous early-phase clinical trials targeting senescent cells to treat, prevent or alleviate multiple disorders and diseases, including metabo...",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "10.1038/s41574-025-01187-9",
+      "title": "Translating cellular senescence research into clinical practice for metabolic disease.",
+      "journal": "Nature reviews. Endocrinology"
+    }
+  ],
+  "fact_check_notes": [
+    "Fact check failed (Gemini): Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2."
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-07T08:51:27.583812",
+  "status": "needs_revision",
+  "source": "pubmed"
+}

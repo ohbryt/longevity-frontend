@@ -1,0 +1,44 @@
+{
+  "paper": {
+    "title": "The Secretome of Human Trophoblast Stem Cells Attenuates Senescence-Associated Traits.",
+    "authors": [
+      "Abdelmohsen Kotb",
+      "Martindale Jennifer L",
+      "Rossi Martina",
+      "Shin Chang Hoon",
+      "Pal Apala"
+    ],
+    "abstract": "Senescent cells display indefinite growth arrest and a pro-inflammatory, senescence-associated secretory phenotype (SASP). As the accumulation of senescent cells in tissues with age plays detrimental roles in age-related pathologies, there is much interest in finding therapeutic strategies to eliminate them or suppress the SASP. In this study, we investigated the impact of the secretome and extracellular vesicles (EVs) derived from human trophoblast stem cells (hTSCs) on senescent human fibroblasts. We found that the hTSC conditioned medium (hTSC-CM), and in particular the EVs (hTSC-EVs), significantly reduced the levels of mRNAs encoding SASP factors and the secretion of SASP factors including CXCL1, IL8, and GDF15. Proteomic analysis of hTSC-CM and EVs indicated an enrichment in proteins involved in cell adhesion, tissue repair, and remodeling of the extracellular matrix (ECM). Furthermore, incubation of senescent cells with hTSC-EVs attenuated DNA damage and inflammatory signaling, at least in part by suppressing the function of NF-κB, a major transcriptional regulator of the SASP program. Our findings underscore the value of hTSC-CM and EVs therein in therapeutic approaches directed at senescent cells.",
+    "journal": "Aging cell",
+    "doi": "10.1111/acel.70368",
+    "pub_date": "2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41521531/",
+    "full_text": null,
+    "relevance_score": 4.0,
+    "topics": [
+      "pubmed"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "The Secretome of Human Trophoblast Stem Cells Attenuates Senescence-Associated Traits.",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2.",
+  "english_title": "The Secretome of Human Trophoblast Stem Cells Attenuates Senescence-Associated Traits.",
+  "english_summary": "Senescent cells display indefinite growth arrest and a pro-inflammatory, senescence-associated secretory phenotype (SASP). As the accumulation of senescent cells in tissues with age plays detrimental ...",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "10.1111/acel.70368",
+      "title": "The Secretome of Human Trophoblast Stem Cells Attenuates Senescence-Associated Traits.",
+      "journal": "Aging cell"
+    }
+  ],
+  "fact_check_notes": [
+    "Fact check failed (Gemini): Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 2."
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-07T08:53:27.658045",
+  "status": "needs_revision",
+  "source": "pubmed"
+}
