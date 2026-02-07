@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { Article } from "./types";
-import { generateSlug, getSourceLabel } from "./utils";
+import { generateSlug } from "./utils";
 
 function getContentDir(): string {
   if (process.env.CONTENT_DIR) return process.env.CONTENT_DIR;
@@ -14,11 +14,21 @@ function getContentDir(): string {
 }
 
 function parseArticle(data: Article, filename: string): Article {
+  // Prefer top-level source field (new pipeline), fall back to paper.topics
+  const sourceKey = data.source || detectSource(data.paper.topics);
   return {
     ...data,
     slug: generateSlug(data.paper.doi),
-    source: getSourceLabel(data.paper.topics),
+    source: sourceKey,
   };
+}
+
+function detectSource(topics: string[]): string {
+  if (!topics) return "pubmed";
+  if (topics.includes("clinical_trial")) return "clinical_trial";
+  if (topics.includes("medrxiv")) return "medrxiv";
+  if (topics.includes("biorxiv")) return "biorxiv";
+  return "pubmed";
 }
 
 export function getAllArticles(): Article[] {
@@ -65,5 +75,5 @@ export function getFeaturedArticles(count = 3): Article[] {
 
 export function getArticlesBySource(source: string): Article[] {
   if (source === "all") return getAllArticles();
-  return getAllArticles().filter((a) => a.paper.topics.includes(source));
+  return getAllArticles().filter((a) => a.source === source);
 }
