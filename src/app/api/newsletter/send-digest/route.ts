@@ -15,9 +15,13 @@ function getRecentReadyArticles(hoursBack = 24, max = 5) {
 
 async function handleDigest(request: NextRequest) {
   try {
-    // Authenticate: Vercel Cron or manual trigger with secret
+    // Authenticate:
+    // - Vercel Cron sets `x-vercel-cron: 1`
+    // - Manual/other callers can use Bearer CRON_SECRET
+    const isVercelCron = request.headers.get("x-vercel-cron") === "1";
     const authHeader = request.headers.get("authorization");
-    if (!CRON_SECRET || authHeader !== `Bearer ${CRON_SECRET}`) {
+    const hasSecret = !!CRON_SECRET && authHeader === `Bearer ${CRON_SECRET}`;
+    if (!isVercelCron && !hasSecret) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
