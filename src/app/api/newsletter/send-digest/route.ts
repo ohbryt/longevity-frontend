@@ -3,6 +3,16 @@ import { getResend, AUDIENCE_ID, FROM_EMAIL, CRON_SECRET } from "@/lib/resend";
 import { digestEmailHtml } from "@/lib/email-templates";
 import { getAllArticles } from "@/lib/content";
 
+function getRecentReadyArticles(hoursBack = 24, max = 5) {
+  const cutoff = Date.now() - hoursBack * 60 * 60 * 1000;
+  return getAllArticles()
+    .filter((a) => {
+      const t = Date.parse(a.created_at || "");
+      return Number.isFinite(t) && t >= cutoff;
+    })
+    .slice(0, max);
+}
+
 async function handleDigest(request: NextRequest) {
   try {
     // Authenticate: Vercel Cron or manual trigger with secret
@@ -13,11 +23,11 @@ async function handleDigest(request: NextRequest) {
 
     const resend = getResend();
 
-    // Get latest articles (up to 5)
-    const articles = getAllArticles().slice(0, 5);
+    // Send only newly generated, publishable content to avoid resending the same digest.
+    const articles = getRecentReadyArticles(24, 5);
 
     if (articles.length === 0) {
-      return NextResponse.json({ message: "No articles to send." });
+      return NextResponse.json({ message: "No new ready articles to send." });
     }
 
     // Get all subscribers from audience
@@ -42,7 +52,7 @@ async function handleDigest(request: NextRequest) {
 
     const html = digestEmailHtml(articles);
     const today = new Date();
-    const subject = `[Longevity Lab] ${today.getMonth() + 1}월 ${today.getDate()}일 Weekly Research Digest`;
+    const subject = `[Longevity Lab] ${today.getMonth() + 1}월 ${today.getDate()}일 Research Digest`;
 
     // Send to each subscriber (Resend batch max 100)
     const batch = subscribers.map((to) => ({
