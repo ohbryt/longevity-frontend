@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "title": "Elucidating the kinetic and thermodynamic insight into regulation of glycolysis by lactate dehydrogenase and its impact on tricarboxylic acid cycle and oxidative phosphorylation in cancer cells",
+    "authors": [
+      "Zeng, S.",
+      "Wang, Y.",
+      "Ying, M.",
+      "Jin, C.",
+      "Ying, C."
+    ],
+    "abstract": "Lactate dehydrogenase (LDH) stands at the intersection of pyruvate metabolism. While it is believed that inhibition of LDH redirects pyruvate to mitochondrial metabolism, suppressing glycolysis and boosting oxidative phosphorylation, the mechanism remains largely unexplored. We found that individual LDH A or B knockouts had minimal impact on glycolysis, tricarboxylic acid cycle (TCA cycle), or oxidative phosphorylation (OXPHOS). However, combining LDH knockout with LDH inhibitor GNE-140 significantly suppressed these processes. Inhibition of LDH led to an increase in free NADH concentration and a decrease in free NAD+ concentration, the reduced free NAD+ concentration inhibited GAPDH, disrupting the balance of glycolytic intermediates, which were linked with thermodynamic shift of the Gibbs free energy of reactions between phosphofructokinase 1 (PFK1) and phosphoglycerate mutase (PGAM) in the glycolytic pathway, favoring their reverse direction. This disrupted glycolysis led to impaired TCA cycle and mitochondrial respiration due to reduced pyruvate and glutamine carbon influx into TCA cycle. Under hypoxia, LDH inhibition had a stronger effect, inducing energy crisis, redox imbalance, and cancer cell death. Our study reveals LDHs intricate control over glycolysis, TCA cycle, and mitochondrial respiration, highlighting the interplay of enzyme kinetics and thermodynamics in metabolic pathways, a crucial aspect for understanding metabolic regulation.\n\nImpact statementThis study elucidates a biochemical mechanism by which lactate dehydrogenase influences glycolytic flux in cancer cells, revealing a kinetic- thermodynamic interplay that contributes to metabolic regulation.",
+    "journal": "biorxiv (preprint)",
+    "doi": "10.1101/2024.06.26.600909",
+    "pub_date": "2026-01-19",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.06.26.600909",
+    "full_text": null,
+    "relevance_score": 4.5,
+    "topics": [
+      "biorxiv",
+      "preprint"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "암세포의 에너지 대사, 락테이트 탈수소효소가 핵심 열쇠일까요?",
+  "korean_summary": "최근 연구는 암세포의 락테이트 탈수소효소(LDH) 억제가 복잡한 기전을 통해 해당과정 및 미토콘드리아 대사를 강력히 억제함을 밝혔습니다. 이는 NAD+ 농도 감소와 효소 역학-열역학적 변화를 유도하여 암세포의 에너지 위기와 사멸을 초래할 수 있다고 합니다. 이 발견은 암 대사 조절의 새로운 이해를 제공합니다.",
+  "korean_body": "안녕하세요, 브라운바이오텍입니다.\n이번 주, 우리 팀이 주목할 만한 흥미로운 연구 결과가 사전 공개되었습니다.\n\n최근 연구(Zeng et al., 2026)는 암세포 에너지 대사 핵심 효소인 락테이트 탈수소효소(LDH, Lactate Dehydrogenase)의 복잡한 역할을 조명합니다. 기존에는 LDH 억제가 피루브산(pyruvate)을 미토콘드리아로 보내 해당과정(glycolysis)을 억제할 것으로 예상되었습니다.\n\n하지만 이 연구는 LDH A 또는 B 단독 억제만으로는 해당과정과 미토콘드리아 대사에 큰 영향이 없음을 발견했습니다. 대신, LDH 억제제 GNE-140을 함께 사용했을 때 해당과정, TCA 회로(TCA cycle), 산화적 인산화(oxidative phosphorylation)가 현저히 억제되었습니다. 이는 LDH 억제가 세포 내 자유 NAD+(free NAD+) 농도를 감소시켜 해당과정의 효소 GAPDH를 저해하고, 대사 흐름의 역전 현상을 유도했기 때문이라고 합니다.\n\n결과적으로, 해당과정의 교란은 피루브산 등 탄소원의 유입을 줄여 TCA 회로와 미토콘드리아 호흡을 손상시켰습니다. 특히 저산소(hypoxia) 환경에서는 LDH 억제 효과가 더욱 강력해져 암세포의 에너지 위기와 세포 사멸까지 유도할 수 있음을 보여주었습니다. 이 연구는 효소의 역학(kinetics)과 열역학(thermodynamics)이 대사 조절에 얼마나 정교하게 작용하는지 밝혀냈습니다.\n\n이처럼 복잡한 대사 과정을 이해하는 것은 건강한 삶을 위한 중요한 첫걸음입니다. 브라운바이오텍은 앞으로도 장수과학 연구를 통해 여러분의 건강한 미래를 응원하겠습니다. 건강한 한 주 보내시기 바랍니다.",
+  "english_title": "Elucidating the kinetic and thermodynamic insight into regulation of glycolysis by lactate dehydrogenase and its impact on tricarboxylic acid cycle and oxidative phosphorylation in cancer cells",
+  "english_summary": "Lactate dehydrogenase (LDH) stands at the intersection of pyruvate metabolism. While it is believed that inhibition of LDH redirects pyruvate to mitochondrial metabolism, suppressing glycolysis and boosting oxidative phosphorylation, the mechanism remains largely unexplored. We found that individual LDH A or B knockouts had minimal impact on glycolysis, tricarboxylic acid cycle (TCA cycle), or oxidative phosphorylation (OXPHOS). However, combining LDH knockout with LDH inhibitor GNE-140 significantly suppressed these processes. Inhibition of LDH led to an increase in free NADH concentration and a decrease in free NAD+ concentration, the reduced free NAD+ concentration inhibited GAPDH, disrupting the balance of glycolytic intermediates, which were linked with thermodynamic shift of the Gibbs free energy of reactions between phosphofructokinase 1 (PFK1) and phosphoglycerate mutase (PGAM) in the glycolytic pathway, favoring their reverse direction. This disrupted glycolysis led to impaired TCA cycle and mitochondrial respiration due to reduced pyruvate and glutamine carbon influx into TCA cycle. Under hypoxia, LDH inhibition had a stronger effect, inducing energy crisis, redox imbalance, and cancer cell death. Our study reveals LDHs intricate control over glycolysis, TCA cycle, and mitochondrial respiration, highlighting the interplay of enzyme kinetics and thermodynamics in metabolic pathways, a crucial aspect for understanding metabolic regulation.\n\nImpact statementThis study elucidates a biochemical mechanism by which lactate dehydrogenase influences glycolytic flux in cancer cells, revealing a kinetic- thermodynamic interplay that contributes to metabolic regulation.",
+  "key_insights": [
+    "**LDH 억제의 복합적 메커니즘:** LDH 억제는 단순히 피루브산을 전환하는 것을 넘어, 세포 내 NAD+/NADH 균형과 GAPDH 효소 활성, 그리고 해당과정의 열역학적 흐름까지 복합적으로 조절함을 밝혔습니다.",
+    "**대사 경로의 상호 연결성:** LDH 억제가 해당과정뿐만 아니라 TCA 회로와 산화적 인산화까지 연쇄적으로 영향을 미쳐 암세포의 전체적인 에너지 대사를 교란시킬 수 있음을 보여주었습니다.",
+    "**대사 조절의 역학-열역학적 중요성:** 효소의 역학적 특성뿐만 아니라 대사 반응의 열역학적 변화가 세포 대사 흐름을 결정하는 중요한 요소임을 강조합니다."
+  ],
+  "practical_applications": [
+    "**미래 암 치료법 개발의 희망:** 이 연구는 암세포의 대사를 정밀하게 조절하여 암을 치료하는 새로운 전략 개발에 중요한 과학적 기반을 제공합니다.",
+    "**대사 건강의 중요성 인지:** 우리 몸의 세포 대사 과정이 얼마나 복잡하고 정교하게 조절되는지 이해하는 것은 전반적인 건강 유지와 질병 예방에 대한 중요성을 다시 한번 일깨워 줍니다."
+  ],
+  "citations": [
+    {
+      "doi": "10.1101/2024.06.26.600909",
+      "title": "Elucidating the kinetic and thermodynamic insight into regulation of glycolysis by lactate dehydrogenase and its impact on tricarboxylic acid cycle and oxidative phosphorylation in cancer cells",
+      "journal": "biorxiv (preprint)"
+    }
+  ],
+  "fact_check_notes": [
+    "AI 생성 콘텐츠에 언급된 'Zeng et al., 2026'은 원본 논문에 존재하지 않는 저자 및 출판 연도 정보로, 출처가 불분명하거나 허위입니다. (원본 논문은 저자나 연도를 명시하지 않았습니다.)",
+    "원본 논문에서는 'individual LDH A or B knockouts' (LDH A 또는 B 유전자 제거)라고 명시했으나, AI 생성 콘텐츠에서는 'LDH A 또는 B 단독 억제'라고 잘못 기술하여 실험 방법을 왜곡했습니다. 'Knockout'은 유전적 조작을 의미하며 '억제'는 약물 등을 통한 활성 저해를 의미하므로 중요한 차이가 있습니다.",
+    "AI 생성 콘텐츠는 LDH 억제 시 'free NADH 농도 증가'에 대한 중요 정보를 누락했습니다. 원본 논문은 'increase in free NADH concentration and a decrease in free NAD+ concentration'이라고 명시했습니다.",
+    "해당과정의 열역학적 변화를 설명하는 과정에서 'phosphofructokinase 1 (PFK1)과 phosphoglycerate mutase (PGAM)'이라는 특정 효소들이 역방향으로 작용한다는 중요한 세부 정보를 누락했습니다.",
+    "TCA 회로 및 미토콘드리아 호흡 손상 원인으로 '글루타민 탄소 유입(glutamine carbon influx)' 감소를 누락했습니다.",
+    "저산소 환경에서 LDH 억제 효과 설명 시 '산화-환원 불균형(redox imbalance)' 유도라는 중요 정보를 누락했습니다.",
+    "AI 생성 콘텐츠는 '브라운바이오텍'이라는 가상의 회사명과 마케팅/홍보성 문구('장수과학 연구', '건강한 미래를 응원하겠습니다' 등)를 포함하고 있어, 객관적인 과학 논문 요약의 목적에 부합하지 않습니다."
+  ],
+  "confidence_score": 0.98,
+  "created_at": "2026-02-08T12:34:21.695564",
+  "status": "needs_revision",
+  "source": "biorxiv"
+}

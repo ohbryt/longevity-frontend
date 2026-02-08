@@ -1,0 +1,42 @@
+{
+  "paper": {
+    "title": "[Clinical Trial] Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
+    "authors": [],
+    "abstract": "The long-term goal is to test the clinical efficacy of senolytic therapies to reduce progression to and severity of sepsis in older patients. The central hypothesis is that a threshold burden of SnCs predisposes to a SASP mediated dysfunctional response to PAMPs, contributing to a disproportionate burden of sepsis in older patients. The study hypothesizes timely treatment with fisetin will interrupt this pathway.\n\nA multicenter, randomized, adaptive allocation clinical trial to identify the most efficacious dose of the senolytic fisetin to reduce the composite cardiovascular, respiratory, and renal sequential organ failure assessment score at 1 week, and predict the probability of success of a definitive phase III clinical trial.",
+    "journal": "ClinicalTrials.gov (PHASE2)",
+    "doi": "NCT05758246",
+    "pub_date": "2023-08-23",
+    "url": "https://clinicaltrials.gov/study/NCT05758246",
+    "full_text": null,
+    "relevance_score": 4.0,
+    "topics": [
+      "clinical_trial",
+      "Sepsis",
+      "Acute Infection",
+      "Organ Failure"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "[Clinical Trial] Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
+  "korean_summary": "요약 생성 실패",
+  "korean_body": "Gemini API error: [Errno 54] Connection reset by peer",
+  "english_title": "[Clinical Trial] Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
+  "english_summary": "The long-term goal is to test the clinical efficacy of senolytic therapies to reduce progression to and severity of sepsis in older patients. The central hypothesis is that a threshold burden of SnCs predisposes to a SASP mediated dysfunctional response to PAMPs, contributing to a disproportionate burden of sepsis in older patients. The study hypothesizes timely treatment with fisetin will interrupt this pathway.\n\nA multicenter, randomized, adaptive allocation clinical trial to identify the most efficacious dose of the senolytic fisetin to reduce the composite cardiovascular, respiratory, and renal sequential organ failure assessment score at 1 week, and predict the probability of success of a definitive phase III clinical trial.",
+  "key_insights": [],
+  "practical_applications": [],
+  "citations": [
+    {
+      "doi": "NCT05758246",
+      "title": "[Clinical Trial] Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
+      "journal": "ClinicalTrials.gov (PHASE2)"
+    }
+  ],
+  "fact_check_notes": [
+    "제공된 'AI 생성 콘텐츠'는 원본 논문의 내용을 기반으로 한 것이 아니라, API 오류 메시지입니다.",
+    "원본 논문과 비교할 수 있는 AI 생성 콘텐츠가 존재하지 않습니다."
+  ],
+  "confidence_score": 0.5,
+  "created_at": "2026-02-08T09:13:56.630077",
+  "status": "needs_revision",
+  "source": "clinical_trial"
+}
