@@ -28,7 +28,14 @@ async function handleDigest(request: NextRequest) {
     const resend = getResend();
 
     // Send only newly generated, publishable content to avoid resending the same digest.
-    const articles = getRecentReadyArticles(24, 5);
+    let articles = getRecentReadyArticles(24, 5);
+    let usedFallback = false;
+    if (articles.length === 0 && isVercelCron) {
+      // Guarantee a daily email even if the pipeline failed to generate new ready articles.
+      // This may resend previously sent content, but is preferable to sending nothing.
+      articles = getAllArticles().slice(0, 5);
+      usedFallback = articles.length > 0;
+    }
 
     if (articles.length === 0) {
       return NextResponse.json({ message: "No new ready articles to send." });
@@ -56,7 +63,9 @@ async function handleDigest(request: NextRequest) {
 
     const html = digestEmailHtml(articles);
     const today = new Date();
-    const subject = `[Longevity Lab] ${today.getMonth() + 1}월 ${today.getDate()}일 Research Digest`;
+    const subject = `[Longevity Lab] ${today.getMonth() + 1}월 ${today.getDate()}일 Research Digest${
+      usedFallback ? " (latest)" : ""
+    }`;
 
     // Send to each subscriber (Resend batch max 100)
     const batch = subscribers.map((to) => ({
@@ -77,6 +86,7 @@ async function handleDigest(request: NextRequest) {
     return NextResponse.json({
       message: `Digest sent to ${totalSent} subscribers.`,
       articles: articles.length,
+      fallback: usedFallback,
     });
   } catch (error) {
     console.error("Send digest error:", error);
