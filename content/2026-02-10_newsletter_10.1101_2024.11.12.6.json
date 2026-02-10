@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "title": "Human skin rejuvenation via mRNA",
+    "authors": [
+      "Li, L.",
+      "Tang, Z.",
+      "Portillo, X.",
+      "Arora, R.",
+      "Yang, M."
+    ],
+    "abstract": "Aging is characterized by a gradual decline in function, partly due to accumulated molecular damage. Human skin undergoes both chronological aging and environmental degradation, particularly UV-induced photoaging. Detrimental structural and physiological changes caused by aging include epidermal thinning due to stem cell depletion and dermal atrophy associated with decreased collagen production. Here, we present a comprehensive single-cell atlas of skin aging, analyzing samples from young, middle-aged, and elderly individuals, including both sun-exposed and sun-protected areas. This atlas reveals age-related changes in cellular composition and function across various skin cell types, including epidermal stem cells, fibroblasts, hair follicles, and endothelial cells. Using our atlas, we have uncovered basal stem cells as a highly variable population across aging, more so than other skin cell populations, such as fibroblasts. In basal stem cells, we identified ATF3 as a novel regulator of skin aging. ATF3 is a transcriptional factor for genes involved in the aging process, with its expression reduced by 20% during aging. Based on this discovery, we developed an innovative mRNA-based treatment to mitigate the effects of skin aging. After treatment with ATF3 mRNA, cell senescence decreased 25%, and we observed an over 20% increase in proliferation in treated basal stem cells. Importantly, we also found communication between keratinocytes and fibroblasts as a critical component of therapeutic interventions, with ATF3 mRNA rescue of basal cells significantly enhancing fibroblast collagen production by approximately 200%. Furthermore, we validated the efficacy of ATF3 mRNA treatment in ex vivo human skin and in vivo mouse models. In ex vivo human skin, microneedle-mediated delivery of ATF3 mRNA induced robust rejuvenation, expanding the basal stem-cell population and enhancing dermal ECM reconstruction. In a wound healing mouse model, ATF3 mRNA reduced scarring, demonstrating strong regenerative potential for reversing age-related skin decline. We conclude that ATF3 mRNA treatment effectively reverses the effects of skin aging by modulating specific cellular mechanisms, offering a novel, targeted approach to human skin rejuvenation.",
+    "journal": "biorxiv (preprint)",
+    "doi": "10.1101/2024.11.12.623261",
+    "pub_date": "2026-01-27",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.11.12.623261",
+    "full_text": null,
+    "relevance_score": 4.5,
+    "topics": [
+      "biorxiv",
+      "preprint"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "피부 노화, mRNA로 되돌릴 수 있을까요? 브라운바이오텍의 최신 연구를 소개합니다!",
+  "korean_summary": "최근 Li 등 연구팀은 피부 노화의 핵심 원인이 기저 줄기세포(basal stem cells)의 변화와 ATF3 유전자의 발현 감소에 있음을 밝혀냈습니다. 이 연구는 ATF3 mRNA를 이용한 치료가 노화된 피부 세포의 재생을 촉진하고 콜라겐 생성을 획기적으로 증가시켜 피부 노화의 영향을 되돌릴 수 있는 새로운 가능성을 제시합니다.",
+  "korean_body": "안녕하세요, 브라운바이오텍입니다. 여러분의 건강한 장수를 위해 끊임없이 연구하는 저희 팀이 이번 주에 주목할 만한 연구 소식을 가져왔습니다.\n\n시간이 흐름에 따라 피부는 자연스럽게 노화 과정을 겪습니다. 자외선으로 인한 광노화(photoaging)뿐만 아니라, 우리 몸의 기능 저하와 세포 손상으로 인해 피부는 탄력을 잃고 얇아지며, 콜라겐 생성도 줄어들게 되는데요. 이러한 변화들은 피부의 건강과 젊음을 유지하는 데 큰 걸림돌이 됩니다. 그래서 저희 브라운바이오텍은 피부 노화의 근본적인 원인을 이해하고, 이를 되돌릴 수 있는 혁신적인 방법을 찾기 위해 노력하고 있습니다.\n\n최근 발표된 Li 등의 연구는 피부 노화에 대한 깊이 있는 통찰을 제공합니다 (Li et al., 2026). 이 연구팀은 젊은 사람부터 노년층까지 다양한 연령대의 피부 샘플을 분석하여, 피부 노화에 따른 세포 구성과 기능의 변화를 상세하게 밝혀냈습니다. 특히, 피부의 중요한 구성 요소인 기저 줄기세포(basal stem cells)가 노화 과정에서 다른 세포들보다 훨씬 더 큰 변화를 겪는다는 사실을 발견했습니다. 이 기저 줄기세포에서 ‘ATF3’라는 새로운 조절 인자(regulator)를 찾아냈는데, 이 ATF3는 노화 관련 유전자들의 전사 인자(transcriptional factor)로 작용하며, 노화가 진행됨에 따라 그 발현이 약 20% 감소한다고 합니다.\n\n이러한 발견을 바탕으로 연구팀은 ATF3 mRNA를 활용한 혁신적인 치료법을 개발했습니다. ATF3 mRNA를 처리한 기저 줄기세포에서는 세포 노화(cell senescence)가 약 25% 감소하고, 세포 증식(proliferation)이 20% 이상 증가하는 것을 확인했습니다. 더 놀라운 점은, 이 치료가 섬유아세포(fibroblasts)의 콜라겐 생성도 약 200%나 증가시켰다는 사실입니다. 이는 표피 세포인 각질형성세포(keratinocytes)와 섬유아세포 간의 상호작용이 치료 효과에 매우 중요함을 시사합니다. 또한, 생체 외(ex vivo) 인체 피부 모델과 생체 내(in vivo) 쥐 모델을 통해 이 치료법의 효과가 검증되었으며, 특히 상처 치유 과정에서 흉터 생성을 줄이는 강력한 재생 잠재력(regenerative potential)도 보여주었습니다.\n\n이번 연구는 mRNA 기술이 피부 노화의 근본적인 메커니즘을 조절하여 젊고 건강한 피부를 되찾을 수 있는 새로운 길을 열어줄 수 있음을 보여줍니다. ATF3 mRNA 치료법은 특정 세포 메커니즘을 표적으로 삼아 피부 노화의 영향을 효과적으로 되돌릴 수 있는 가능성을 제시하며, 이는 장수 과학 분야에 매우 고무적인 발전이라고 생각합니다. 물론 이 연구는 아직 초기 단계이지만, 저희 브라운바이오텍은 이러한 혁신적인 연구가 실제 여러분의 삶에 긍정적인 영향을 미칠 수 있도록 계속해서 노력할 것입니다. 당장 실천할 수 있는 건강한 피부 관리를 위해, 자외선 차단제를 꾸준히 사용하고, 균형 잡힌 식단과 충분한 수분 섭취로 피부 건강을 지켜주세요. 스트레스 관리와 충분한 수면 또한 피부 노화를 늦추는 데 도움이 될 수 있습니다.\n\n이러한 연구들이 여러분의 건강한 장수를 위한 희망적인 메시지가 되기를 바랍니다. 다음 주에도 유익한 소식으로 찾아뵙겠습니다. 건강한 한 주 보내시기 바랍니다.",
+  "english_title": "Human skin rejuvenation via mRNA",
+  "english_summary": "Aging is characterized by a gradual decline in function, partly due to accumulated molecular damage. Human skin undergoes both chronological aging and environmental degradation, particularly UV-induced photoaging. Detrimental structural and physiological changes caused by aging include epidermal thinning due to stem cell depletion and dermal atrophy associated with decreased collagen production. Here, we present a comprehensive single-cell atlas of skin aging, analyzing samples from young, middle-aged, and elderly individuals, including both sun-exposed and sun-protected areas. This atlas reveals age-related changes in cellular composition and function across various skin cell types, including epidermal stem cells, fibroblasts, hair follicles, and endothelial cells. Using our atlas, we have uncovered basal stem cells as a highly variable population across aging, more so than other skin cell populations, such as fibroblasts. In basal stem cells, we identified ATF3 as a novel regulator of skin aging. ATF3 is a transcriptional factor for genes involved in the aging process, with its expression reduced by 20% during aging. Based on this discovery, we developed an innovative mRNA-based treatment to mitigate the effects of skin aging. After treatment with ATF3 mRNA, cell senescence decreased 25%, and we observed an over 20% increase in proliferation in treated basal stem cells. Importantly, we also found communication between keratinocytes and fibroblasts as a critical component of therapeutic interventions, with ATF3 mRNA rescue of basal cells significantly enhancing fibroblast collagen production by approximately 200%. Furthermore, we validated the efficacy of ATF3 mRNA treatment in ex vivo human skin and in vivo mouse models. In ex vivo human skin, microneedle-mediated delivery of ATF3 mRNA induced robust rejuvenation, expanding the basal stem-cell population and enhancing dermal ECM reconstruction. In a wound healing mouse model, ATF3 mRNA reduced scarring, demonstrating strong regenerative potential for reversing age-related skin decline. We conclude that ATF3 mRNA treatment effectively reverses the effects of skin aging by modulating specific cellular mechanisms, offering a novel, targeted approach to human skin rejuvenation.",
+  "key_insights": [
+    "피부 노화는 특히 기저 줄기세포(basal stem cells)에서 두드러지는 세포 구성 및 기능 변화를 동반합니다.",
+    "ATF3는 피부 노화의 새로운 조절 인자로 확인되었으며, 노화가 진행됨에 따라 그 발현이 약 20% 감소합니다.",
+    "ATF3 mRNA 치료는 노화된 기저 줄기세포에서 세포 노화를 약 25% 감소시키고, 세포 증식을 20% 이상 증가시킵니다.",
+    "ATF3 mRNA 치료는 섬유아세포(fibroblasts)의 콜라겐 생성을 약 200% 증가시키며, 이는 각질형성세포(keratinocytes)와 섬유아세포 간의 상호작용이 중요함을 시사합니다.",
+    "ATF3 mRNA 치료는 생체 외(ex vivo) 인체 피부 모델에서 기저 줄기세포 증식 및 진피 ECM(세포외 기질) 재건을 유도하고, 생체 내(in vivo) 쥐 모델에서 흉터 감소 등 강력한 재생 잠재력을 보여주었습니다."
+  ],
+  "practical_applications": [
+    "연구는 아직 초기 단계이므로, 현재로서는 자외선 차단제 사용, 균형 잡힌 식단, 충분한 수분 섭취, 스트레스 관리, 충분한 수면 등 기본적인 건강한 피부 관리 습관을 유지하는 것이 중요합니다.",
+    "이번 연구는 mRNA 기술을 활용한 표적 치료가 미래에 피부 노화를 되돌리고 젊음을 유지하는 데 새로운 가능성을 열어줄 수 있음을 보여줍니다."
+  ],
+  "citations": [
+    {
+      "doi": "10.1101/2024.11.12.623261",
+      "title": "Human skin rejuvenation via mRNA",
+      "journal": "biorxiv (preprint)"
+    }
+  ],
+  "fact_check_notes": [],
+  "confidence_score": 0.98,
+  "created_at": "2026-02-10T21:34:38.034069",
+  "status": "ready_for_review",
+  "source": "biorxiv"
+}

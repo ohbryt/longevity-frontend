@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "title": "Removing therapy-induced senescent cancer cells targets and potentiates the response of pancreatic cancer cells toward PARP inhibitors as maintenance therapy.",
+    "authors": [
+      "Li Yupeng",
+      "Jia Zhangjun",
+      "Liu Xiaolin",
+      "Xia Xue'er",
+      "Zhang Lingkai"
+    ],
+    "abstract": "Poly (ADP‒ribose) polymerase inhibitors (PARPis) are widely used in maintenance therapy for various platinum-sensitive cancers regardless of the occurrence of BRCA mutations. However, the mechanisms of action and treatment resistance associated with the use of PARPis for maintenance therapy in pancreatic cancer remain unclear. In this study, in addition to the induction of apoptosis, the use of PARPis (olaparib and niraparib) as maintenance therapies inhibited cell proliferation by causing cellular senescence to exert potent anticancer effects on Capan-1 (BRCA mutated) and PANC-1 (BRCA wild-type) cells. Mechanistically, the cellular senescence caused by PARPis relies on the Chk2‒p21 pathway but not in a p53-dependent manner. Interestingly, in addition to directly causing DNA damage, PARPis also exacerbate DNA damage through the generation of ROS via the positive feedback pathway, thereby inducing cellular senescence. Unfortunately, PARPis therapy-induced senescence is a reversible anticancer mechanism in which senescent cancer cells lose their senescence-like phenotype and continue proliferating upon drug withdrawal. This potentially explains the requirement for sustained PARPi therapy in the clinic. Furthermore, the expression of Bcl-2 was increased in PARPi-induced senescent cancer cells, providing a window for opportunistic elimination via synergistic senolytic drugs. The inhibition of Bcl-2 through the sequence-dependent combination of navitoclax enhanced the anticancer effects of PARPis by removing senescent cells. Collectively, data from our study demonstrate that the clinical application of PARPis as maintenance therapy could be achieved through the induction of cellular senescence. Furthermore, sequence-dependent combination with senescence-targeting drugs can potentiate pancreatic cancer treatment effects of PARPis regardless of the BRCA status.",
+    "journal": "Apoptosis : an international journal on programmed cell death",
+    "doi": "10.1007/s10495-025-02251-5",
+    "pub_date": "2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41663638/",
+    "full_text": null,
+    "relevance_score": 4.0,
+    "topics": [
+      "pubmed"
+    ]
+  },
+  "content_type": "newsletter",
+  "korean_title": "췌장암 치료의 새로운 희망: PARP 억제제와 노화세포 제거의 시너지 효과는?",
+  "korean_summary": "최근 연구에 따르면, PARP 억제제는 췌장암 세포에서 세포 자멸사(apoptosis) 외에 세포 노화(cellular senescence)를 유도하여 항암 효과를 발휘한다고 합니다. 약물 중단 시 노화된 암세포가 다시 증식할 수 있지만, Bcl-2 억제제와 같은 노화세포 제거 약물(senolytic drugs)을 PARP 억제제와 순차적으로 병용하면 치료 효과를 더욱 강화할 수 있음이 밝혀졌습니다.",
+  "korean_body": "안녕하세요, 브라운바이오텍입니다.\n췌장암 치료 분야에 새로운 희망을 제시할 중요한 연구가 곧 발표될 예정이어서 여러분께 소개해 드리고자 합니다.\n\n췌장암은 치료하기 어려운 암 중 하나로 알려져 있어, 더 효과적인 치료법에 대한 연구가 절실합니다. 2026년에 'Apoptosis' 저널에 발표될 예정인 한 연구는 폴리(ADP-리보스) 중합효소 억제제 (PARP inhibitors, PARPis)라는 약물이 췌장암 유지 요법에서 어떻게 작용하는지, 그리고 치료 저항성에 대한 이해를 돕고, 치료 반응을 강화할 수 있는 새로운 가능성을 제시하여 주목받고 있습니다. (Li et al., Apoptosis, 2026) 이 연구는 PARP 억제제가 단순히 암세포를 죽이는 것을 넘어, 또 다른 중요한 항암 메커니즘을 가지고 있음을 밝혀냈습니다.\n\n연구팀은 PARP 억제제(올라파립, 니라파립 등)가 췌장암 세포(BRCA 유전자 변이 여부와 관계없이 Capan-1과 PANC-1 세포 모두에서)에서 세포 자멸사 (apoptosis)뿐만 아니라, 세포 노화 (cellular senescence)를 유도하여 암세포의 증식을 억제한다는 사실을 밝혀냈다고 합니다. 세포 노화는 세포가 더 이상 분열하지 않고 '늙은' 상태로 머무르게 하는 과정인데요, 이는 p53 단백질 경로와는 무관하게 Chk2-p21 경로를 통해 일어난다고 합니다. 흥미롭게도, PARP 억제제는 DNA 손상을 직접 유발하는 것 외에도 활성산소종 (reactive oxygen species, ROS) 생성을 통한 긍정적인 피드백 경로를 통해 DNA 손상을 악화시키고, 이를 통해 세포 노화를 더욱 강력하게 유도할 수 있다고 해요.\n\n하지만 이 노화 과정에는 아쉬운 점이 있습니다. PARP 억제제로 유도된 세포 노화는 약물 투여를 중단하면 노화 유사 표현형을 잃고 다시 증식할 수 있는 가역적인 특성을 가지고 있다는 것이죠. 이것이 바로 임상에서 PARP 억제제를 지속적으로 투여해야 하는 이유 중 하나일 수 있습니다. 연구팀은 이러한 노화된 암세포에서 Bcl-2 단백질의 발현이 증가한다는 점에 주목했다고 합니다. 이는 Bcl-2 억제제인 나비토클락스 (navitoclax)와 같은 노화세포 제거 약물 (senolytic drugs)을 사용하여 이 노화된 암세포들을 효과적으로 제거할 수 있는 기회가 될 수 있음을 의미한다고 합니다. 실제로 PARP 억제제와 나비토클락스를 순차적으로 병용 투여했을 때, 노화된 세포를 제거함으로써 췌장암 치료 효과가 강화되는 것을 확인했다고 합니다.\n\n이 연구 결과는 췌장암 치료에 있어 PARP 억제제의 임상적 적용 가능성을 더욱 넓힐 수 있음을 시사합니다. 특히, BRCA 유전자 변이 여부와 관계없이 PARP 억제제와 노화세포 제거 약물의 순차적 병용 요법이 췌장암 치료 효과를 강화할 수 있다는 점은 매우 고무적입니다. 앞으로 췌장암 환자분들이 더욱 효과적이고 개인화된 치료를 받을 수 있는 새로운 길이 열릴 수 있기를 기대해 봅니다.\n\n건강한 한 주 보내시기 바랍니다.",
+  "english_title": "Removing therapy-induced senescent cancer cells targets and potentiates the response of pancreatic cancer cells toward PARP inhibitors as maintenance therapy.",
+  "english_summary": "Poly (ADP‒ribose) polymerase inhibitors (PARPis) are widely used in maintenance therapy for various platinum-sensitive cancers regardless of the occurrence of BRCA mutations. However, the mechanisms of action and treatment resistance associated with the use of PARPis for maintenance therapy in pancreatic cancer remain unclear. In this study, in addition to the induction of apoptosis, the use of PARPis (olaparib and niraparib) as maintenance therapies inhibited cell proliferation by causing cellular senescence to exert potent anticancer effects on Capan-1 (BRCA mutated) and PANC-1 (BRCA wild-type) cells. Mechanistically, the cellular senescence caused by PARPis relies on the Chk2‒p21 pathway but not in a p53-dependent manner. Interestingly, in addition to directly causing DNA damage, PARPis also exacerbate DNA damage through the generation of ROS via the positive feedback pathway, thereby inducing cellular senescence. Unfortunately, PARPis therapy-induced senescence is a reversible anticancer mechanism in which senescent cancer cells lose their senescence-like phenotype and continue proliferating upon drug withdrawal. This potentially explains the requirement for sustained PARPi therapy in the clinic. Furthermore, the expression of Bcl-2 was increased in PARPi-induced senescent cancer cells, providing a window for opportunistic elimination via synergistic senolytic drugs. The inhibition of Bcl-2 through the sequence-dependent combination of navitoclax enhanced the anticancer effects of PARPis by removing senescent cells. Collectively, data from our study demonstrate that the clinical application of PARPis as maintenance therapy could be achieved through the induction of cellular senescence. Furthermore, sequence-dependent combination with senescence-targeting drugs can potentiate pancreatic cancer treatment effects of PARPis regardless of the BRCA status.",
+  "key_insights": [
+    "PARP 억제제(PARPis)는 췌장암 세포(BRCA 변이 여부와 무관)에서 세포 자멸사 외에 세포 노화(cellular senescence)를 유도하여 항암 효과를 발휘할 수 있습니다.",
+    "PARP 억제제에 의한 세포 노화는 p53 경로가 아닌 Chk2-p21 경로를 통해 일어나며, 활성산소종(ROS) 생성을 통한 긍정적인 피드백 경로로 DNA 손상을 악화시켜 세포 노화를 더욱 강력하게 유도할 수 있다고 합니다.",
+    "PARP 억제제 유도 세포 노화는 약물 투여 중단 시 가역적으로 암세포가 다시 증식할 수 있으며, 노화된 암세포에서는 Bcl-2 단백질 발현이 증가한다고 합니다.",
+    "Bcl-2 억제제인 나비토클락스와 같은 노화세포 제거 약물(senolytic drugs)을 PARP 억제제와 순차적으로 병용하면 노화된 암세포를 효과적으로 제거하여 췌장암 치료 효과를 강화할 수 있습니다.",
+    "이러한 치료 효과 강화는 BRCA 유전자 변이 여부와 관계없이 나타날 수 있습니다."
+  ],
+  "practical_applications": [
+    "PARP 억제제를 췌장암 유지 요법으로 적용할 때, 세포 노화 유도 메커니즘을 활용하여 치료 효과를 높일 수 있는 가능성을 제시합니다.",
+    "PARP 억제제와 노화세포 제거 약물(예: Bcl-2 억제제)의 순차적 병용 요법이 췌장암 치료 효과를 강화하는 새로운 치료 전략으로 개발될 수 있습니다.",
+    "BRCA 유전자 변이 여부와 관계없이 췌장암 환자에게 더 효과적이고 개인화된 치료법을 제공할 수 있는 기반이 될 수 있습니다."
+  ],
+  "citations": [
+    {
+      "doi": "10.1007/s10495-025-02251-5",
+      "title": "Removing therapy-induced senescent cancer cells targets and potentiates the response of pancreatic cancer cells toward PARP inhibitors as maintenance therapy.",
+      "journal": "Apoptosis : an international journal on programmed cell death"
+    }
+  ],
+  "fact_check_notes": [],
+  "confidence_score": 0.95,
+  "created_at": "2026-02-10T21:37:58.583636",
+  "status": "ready_for_review",
+  "source": "pubmed"
+}

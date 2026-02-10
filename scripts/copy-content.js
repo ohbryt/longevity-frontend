@@ -15,8 +15,28 @@ if (!fs.existsSync(DEST)) {
 
 const files = fs.readdirSync(SOURCE).filter((f) => f.endsWith(".json"));
 
+let copied = 0;
+let skipped = 0;
+
 for (const file of files) {
-  fs.copyFileSync(path.join(SOURCE, file), path.join(DEST, file));
+  const srcPath = path.join(SOURCE, file);
+  const destPath = path.join(DEST, file);
+
+  try {
+    const raw = fs.readFileSync(srcPath, "utf-8");
+    const data = JSON.parse(raw);
+    if (data?.status !== "ready_for_review") {
+      skipped += 1;
+      continue;
+    }
+    fs.copyFileSync(srcPath, destPath);
+    copied += 1;
+  } catch {
+    // If a file is malformed, don't pollute the frontend content dir.
+    skipped += 1;
+  }
 }
 
-console.log(`Copied ${files.length} content files to frontend/content/`);
+console.log(
+  `Copied ${copied} ready content files to frontend/content/ (skipped ${skipped})`,
+);
